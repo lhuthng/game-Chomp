@@ -1,0 +1,8 @@
+.vscode
+.idea
+.vs
+/my-venv/
+/temp/
+shared.so
+__pycache__/
+build/
