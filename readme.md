@@ -11,13 +11,12 @@ This script will guide you through setting up a virtual environment for your Pyt
 
 ## Steps (for Debian):
 
-0. **Install python3-dev, Jupyter Notebook, python virtual environment, g++, and cmake. (Probably need sudo)**
+0. **Install python3-dev, python virtual environment, g++, and cmake. (Probably need sudo)**
     ```bash
     apt update
     apt upgrade
     apt install python3-dev
     apt install python3-venv
-    apt install notebook
     apt install g++
     apt install cmake
 1. **Create the virtual environment:**
@@ -29,15 +28,18 @@ This script will guide you through setting up a virtual environment for your Pyt
 3. **Upgrade the pip**
     ```bash
     pip install --upgrade pip
-4. **Install cppyy**
+4. **Install Jupyter Notebook (Optional if you use Visual Studio Code)**
+    ```bash
+    pip install notebook
+5. **Install cppyy**
     ```bash
     pip install cppyy
-5. **Install matplotlib library**
+6. **Install matplotlib library**
     ```bash
     pip install matplotlib
-6. **Install ipywidgets library**
+7. **Install ipywidgets library**
     ```bash
     pip install ipywidgets
-7. **Install ipykernel for the notebook**
+8. **Install ipykernel for the notebook**
     ```bash
     pip install ipykernel
